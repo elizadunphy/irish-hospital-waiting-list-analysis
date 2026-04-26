@@ -38,16 +38,16 @@ The analysis focuses on:
 ## Visualisations
 
 ### Total Waiting List Over Time
-![Waiting List Over Time](Chart Images/hospital_waiting_list.png)
+![Waiting List Over Time](hospital_waiting_list.png)
 
 ### Top 10 Hospitals by Waiting List
-![Top Hospitals](charts/Chart Images/hospital_totals.png)
+![Top Hospitals](hospital_totals.png)
 
 ### Long Waiting Times (18+ Months)
-![Long Waits](charts/Chart Images/long_waiting.png)
+![Long Waits](long_waiting.png)
 
 ### Waiting List by Patient Type
-![Adult vs Child](Chart Images/adult_child.png)
+![Adult vs Child](adult_child.png)
 
 ---
 
