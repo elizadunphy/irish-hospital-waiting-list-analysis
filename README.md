@@ -37,11 +37,17 @@ The analysis focuses on:
 
 ## Visualisations
 
-The project includes:
-- Total waiting list over time  
-- Top hospitals by waiting list  
-- Long waiting times (18+ months) by hospital  
-- Waiting list by patient type  
+### Total Waiting List Over Time
+![Waiting List Over Time](charts/hospital_waiting_list.png)
+
+### Top 10 Hospitals by Waiting List
+![Top Hospitals](charts/hospital_totals.png)
+
+### Long Waiting Times (18+ Months)
+![Long Waits](charts/long_waiting.png)
+
+### Waiting List by Patient Type
+![Adult vs Child](charts/adult_child.png)
 
 ---
 
