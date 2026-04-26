@@ -1,5 +1,13 @@
 # Irish Hospital Waiting List Analysis
 
+## Executive Summary
+
+This analysis examines Irish hospital outpatient waiting list data to identify key trends and pressures within the system.
+
+The findings highlight a sustained increase in waiting list volumes over time, with a concentration of patients in a small number of hospitals. Long waiting times (18+ months) remain a significant concern, and adult patients account for the majority of those waiting.
+
+These patterns suggest ongoing capacity challenges and uneven distribution of demand across the healthcare system.
+
 This project analyses Irish hospital outpatient waiting list data to examine trends in patient waiting times across hospitals.
 
 ---
@@ -30,7 +38,7 @@ The analysis focuses on:
 
 ## Key Findings
 
-- The total waiting list shows an overall upward trend over time  
+- The overall waiting list is increasing over time, indicating sustained pressure on outpatient services 
 - A small number of hospitals account for a large proportion of total waiting list volumes  
 - Long waiting times (18+ months) are concentrated in a small number of hospitals  
 - Adult patients make up the majority of those waiting  
@@ -68,6 +76,12 @@ The analysis focuses on:
 
 - Data required cleaning, including converting formatted numeric fields to numeric values  
 - Analysis is based on aggregated data across the available time period  
+
+---
+
+## Relevance
+
+This type of analysis supports healthcare service planning by identifying areas of high demand, long waiting times, and potential capacity constraints.
 
 ---
 
