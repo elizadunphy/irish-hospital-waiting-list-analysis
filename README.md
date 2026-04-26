@@ -1,6 +1,6 @@
 # Irish Hospital Waiting List Analysis
 
-This project analyses Irish hospital outpatient waiting list data to examine patient waiting times across hospitals.
+This project analyses Irish hospital outpatient waiting list data to examine trends in patient waiting times across hospitals.
 
 ---
 
@@ -9,10 +9,12 @@ This project analyses Irish hospital outpatient waiting list data to examine pat
 The dataset includes the number of patients waiting in different time bands (0–6 months, 6–12 months, 12–18 months, and 18+ months), broken down by hospital and patient type (Adult/Child).
 
 The analysis focuses on:
+
+- Waiting list trends over time  
 - Distribution of waiting lists across hospitals  
 - Long waiting times (18+ months)  
 - Differences between Adult and Child patients  
-- Trends in waiting lists over time  
+- Distribution of patients across waiting time bands  
 
 ---
 
@@ -28,26 +30,30 @@ The analysis focuses on:
 
 ## Key Findings
 
+- The total waiting list shows an overall upward trend over time  
 - A small number of hospitals account for a large proportion of total waiting list volumes  
 - Long waiting times (18+ months) are concentrated in a small number of hospitals  
 - Adult patients make up the majority of those waiting  
-- The overall waiting list is increasing over time  
+- Most patients are in shorter waiting time bands, though long waits remain a concern  
 
 ---
 
 ## Visualisations
 
-### Total Waiting List Over Time
-![Waiting List Over Time](hospital_waiting_list.png)
+### Waiting List Over Time
+![Waiting List Over Time](charts/hospital_waiting_list.png)
 
 ### Top 10 Hospitals by Waiting List
-![Top Hospitals](hospital_totals.png)
+![Top Hospitals](charts/top_10_hospitals.png)
 
 ### Long Waiting Times (18+ Months)
-![Long Waits](long_waiting.png)
+![Long Waits](charts/long_waits_18_months.png)
 
 ### Waiting List by Patient Type
-![Adult vs Child](adult_child.png)
+![Adult vs Child](charts/adult_vs_child.png)
+
+### Waiting Time Distribution
+![Waiting Time Distribution](charts/waiting_time_distribution.png)
 
 ---
 
@@ -60,7 +66,7 @@ The analysis focuses on:
 
 ## Notes
 
-- Data required cleaning before analysis, including converting formatted numeric fields to numeric values  
+- Data required cleaning, including converting formatted numeric fields to numeric values  
 - Analysis is based on aggregated data across the available time period  
 
 ---
